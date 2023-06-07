@@ -52,3 +52,155 @@ header{
 .nav_links ul a:active{
     color: #47141e;
 }
+
+/* CARDS */
+
+.container{
+    margin: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    font-family: "Montserrat", sans-serif;
+    color: #ffecba;
+    text-decoration: none;
+    font-size: 25px;
+    width: 350px;
+    background-color: rgb(71,20,30);
+    background: linear-gradient(270deg, rgba(71,20,30,1) 0%, rgba(143,14,39,1) 50%, rgba(71,20,30,1) 100%);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 2%;
+    text-align: center;    
+}
+
+.card, h1{
+    font-size: 25px;    
+}
+
+.remedy_img {
+    width: 300px;
+    border-radius: 2%;
+}
+
+.cart_button {
+    height: 40px;
+    
+    background-color: transparent;
+    
+    margin-top: auto;
+    margin-left: 15px;
+    margin-bottom: auto;
+    
+    border: 0;
+}
+
+.img_cart_button {
+    height: 30px;
+    cursor: pointer;
+}
+
+.heart_icon {
+    display: block;
+ 
+    width: 25px;
+
+    margin-top: 5px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.card-description > div {
+    display: flex;
+    justify-content: center;
+}
+
+.card-description > h1 {
+    margin-bottom: 0px;
+}
+
+/* CONTACT */
+
+.contact_main {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: 550px;
+    margin-top: 30px;
+    margin-left: 29%;
+    margin-right: auto;
+    background: #47141e;
+    background: linear-gradient(270deg, rgba(71,20,30,1) 0%, rgba(143,14,39,1) 50%, rgba(71,20,30,1) 100%);
+}
+
+::-webkit-input-placeholder{
+    color:grey;
+    background-color: white;
+    font-size: 20px;
+}
+
+.form_contact_us {
+    display: flex;
+    justify-content: center;  
+}
+
+.contact_us {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 2rem;
+}
+
+.form_name, .form_tell, .form_email, .form_switch, .form_text, .form_check, .form_buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.form_name > input {
+    font-size: 22px;
+}
+
+.form_tell > input {
+    font-size: 22px;
+}
+
+.form_email > input {
+    font-size: 22px;
+}
+.form_text > input {
+    font-size: 22px;
+}
+
+.form_options {
+    font-size: 22px;
+}
+
+.form_text > textarea {
+    font-size: 22px;
+    width: 600px;
+    height: 200px;
+}
+
+.form_check {
+    font-family: "Montserrat", sans-serif;
+    background: white;
+    border-style: groove;
+    width: 340px;
+    margin-left: 22%;
+}
+
+.form_check > p {
+    font-size: 1rem;
+}
+
+.form_buttons > .submit_button {
+    padding-right: 20px;
+}
+
+.form_buttons > input {
+    font-size: 1rem;
+}
