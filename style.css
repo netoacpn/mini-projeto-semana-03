@@ -129,7 +129,8 @@ header{
     width: 800px;
     height: 550px;
     margin-top: 30px;
-    margin-left: 29%;
+    margin-left: auto;
+    margin-right: auto;
     margin-right: auto;
     background: #47141e;
     background: linear-gradient(270deg, rgba(71,20,30,1) 0%, rgba(143,14,39,1) 50%, rgba(71,20,30,1) 100%);
